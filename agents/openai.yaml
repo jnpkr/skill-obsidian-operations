@@ -1,0 +1,7 @@
+interface:
+  display_name: "Obsidian Operations"
+  short_description: "Preserve links, trash, and history in vaults"
+  default_prompt: "Use $obsidian-operations to safely rename, move, delete, or reorganize files in my Obsidian vault."
+
+policy:
+  allow_implicit_invocation: true
