@@ -11,6 +11,8 @@ Work inside Obsidian vaults without bypassing Obsidian's vault-aware behavior.
 
 Use normal file edits for precise content changes inside existing files. Use the native `obsidian` CLI for structural vault operations so Obsidian can preserve links, trash behavior, history, and vault state.
 
+On Jon's computer, execute `obsidian` CLI commands against an actual vault using the agent runtime's approved unsandboxed execution mode. In Codex, set `sandbox_permissions="require_escalated"`; in other runtimes, use the equivalent mechanism.
+
 Structural operations include creating, renaming, moving, deleting, opening, templating, and inspecting relationships between notes. Do not use raw filesystem operations for those unless the user explicitly asks to bypass Obsidian behavior, because direct file operations can silently skip Obsidian's safeguards.
 
 ## Detect Vault Context
